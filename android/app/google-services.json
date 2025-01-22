@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224983519939",
+    "project_id": "peetogether-8010c",
+    "storage_bucket": "peetogether-8010c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224983519939:android:9179d00415daba78a68876",
+        "android_client_info": {
+          "package_name": "com.peetogether.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224983519939-828m5bapvjpn7jttnf5flvcpshps5prh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.peetogether.app",
+            "certificate_hash": "ab75f90ffe1f31a897733eb655de30fff000943d"
+          }
+        },
+        {
+          "client_id": "224983519939-vc0jovb9nc5n9gbrmna5drk7qdgfe1ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOJSrRdyDaIrCx4ATmgt7-iS9JJP6RQWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224983519939-vc0jovb9nc5n9gbrmna5drk7qdgfe1ud.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "224983519939-31n98nf5acjn4a5p5rjrpd3mda4ilivd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.peetogether.app",
+                "app_store_id": "6737306964"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

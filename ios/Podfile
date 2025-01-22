@@ -42,7 +42,7 @@ setup_permissions([
   # 'StoreKit',
 ])
 
-target 'peetogether' do
+target 'spingere' do
   config = use_native_modules!
 
   pod 'Firebase', :modular_headers => true
@@ -61,7 +61,7 @@ target 'peetogether' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'peetogetherTests' do
+  target 'spingereTests' do
     inherit! :complete
     # Pods for testing
   end

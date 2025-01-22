@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface peetogetherTests : XCTestCase
+@interface spingereTests : XCTestCase
 
 @end
 
-@implementation peetogetherTests
+@implementation spingereTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

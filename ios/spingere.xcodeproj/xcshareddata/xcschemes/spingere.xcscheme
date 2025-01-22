@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "peetogether.app"
-               BlueprintName = "peetogether"
-               ReferencedContainer = "container:peetogether.xcodeproj">
+               BuildableName = "spingere.app"
+               BlueprintName = "spingere"
+               ReferencedContainer = "container:spingere.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "peetogetherTests.xctest"
-               BlueprintName = "peetogetherTests"
-               ReferencedContainer = "container:peetogether.xcodeproj">
+               BuildableName = "spingereTests.xctest"
+               BlueprintName = "spingereTests"
+               ReferencedContainer = "container:spingere.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "peetogether.app"
-            BlueprintName = "peetogether"
-            ReferencedContainer = "container:peetogether.xcodeproj">
+            BuildableName = "spingere.app"
+            BlueprintName = "spingere"
+            ReferencedContainer = "container:spingere.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "peetogether.app"
-            BlueprintName = "peetogether"
-            ReferencedContainer = "container:peetogether.xcodeproj">
+            BuildableName = "spingere.app"
+            BlueprintName = "spingere"
+            ReferencedContainer = "container:spingere.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* peetogetherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* peetogetherTests.m */; };
+		00E356F31AD99517003FC87E /* spingereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* spingereTests.m */; };
 		0B1F27381F5541DAADD0526F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD2649BBBFA34C5C9985A425 /* Montserrat-SemiBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -18,7 +18,7 @@
 		3A3496E8EF964E05945C3C01 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E3DFDB87F4FF0A4D57178 /* Montserrat-Black.ttf */; };
 		3B1408ACAFE8460CAB78AC00 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C312873D3A1F4219AC35F2ED /* Montserrat-ThinItalic.ttf */; };
 		49F9DD778273469A8B16D7E9 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5DA995335D426FAF8782DC /* Montserrat-ExtraBold.ttf */; };
-		52FDCDB8E5823CEE296DF2D0 /* libPods-peetogether-peetogetherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F47544DABC1ECC92F728F178 /* libPods-peetogether-peetogetherTests.a */; };
+		52FDCDB8E5823CEE296DF2D0 /* libPods-spingere-spingereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F47544DABC1ECC92F728F178 /* libPods-spingere-spingereTests.a */; };
 		6FB25B326035483994101D47 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89E7E79076994D3D99F5E415 /* Montserrat-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		84D98F99C3DE4BA487AE3097 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0793B7A0A0514F489EE6000E /* Montserrat-ExtraLight.ttf */; };
@@ -34,7 +34,7 @@
 		AD77F20664CE4C99A2716AE8 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A7105C565A41359B731354 /* Montserrat-BoldItalic.ttf */; };
 		AEBF86122E94415FB2F1A6A2 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 050E1C0B98694A4881899C14 /* Montserrat-SemiBoldItalic.ttf */; };
 		BF9A0661D37341B989EE29F1 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DBC6159AEFB429FAD954EEE /* Montserrat-BlackItalic.ttf */; };
-		D06ECEF0E933E5798F154186 /* libPods-peetogether.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9279D742AB9C0BC0B5DB73 /* libPods-peetogether.a */; };
+		D06ECEF0E933E5798F154186 /* libPods-spingere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9279D742AB9C0BC0B5DB73 /* libPods-spingere.a */; };
 		F59E1E7EE6E54A42932E6655 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53858FF4F7B447B6A89E554C /* Montserrat-Light.ttf */; };
 		FFD9406E9747493B8E14B419 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D27C7EAD12B04D00B3A3AFD9 /* Montserrat-LightItalic.ttf */; };
 /* End PBXBuildFile section */
@@ -45,51 +45,51 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = peetogether;
+			remoteInfo = spingere;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* peetogetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = peetogetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* spingereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spingereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* peetogetherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peetogetherTests.m; sourceTree = "<group>"; };
-		0351FC6CA97066941E6EF9C7 /* Pods-peetogether-peetogetherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peetogether-peetogetherTests.debug.xcconfig"; path = "Target Support Files/Pods-peetogether-peetogetherTests/Pods-peetogether-peetogetherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* spingereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spingereTests.m; sourceTree = "<group>"; };
+		0351FC6CA97066941E6EF9C7 /* Pods-spingere-spingereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spingere-spingereTests.debug.xcconfig"; path = "Target Support Files/Pods-spingere-spingereTests/Pods-spingere-spingereTests.debug.xcconfig"; sourceTree = "<group>"; };
 		050E1C0B98694A4881899C14 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		0793B7A0A0514F489EE6000E /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 		11924BFFE51844EE81471355 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* peetogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peetogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = peetogether/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = peetogether/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = peetogether/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = peetogether/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = peetogether/main.m; sourceTree = "<group>"; };
-		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = peetogether/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* spingere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spingere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = spingere/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = spingere/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = spingere/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = spingere/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = spingere/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = spingere/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2A5DA995335D426FAF8782DC /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		2C7BFC61F69B449ABC1F723F /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
 		3DBE190E484E42A1AC697075 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		41DCC3E1344CED254F7A9841 /* Pods-peetogether-peetogetherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peetogether-peetogetherTests.release.xcconfig"; path = "Target Support Files/Pods-peetogether-peetogetherTests/Pods-peetogether-peetogetherTests.release.xcconfig"; sourceTree = "<group>"; };
+		41DCC3E1344CED254F7A9841 /* Pods-spingere-spingereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spingere-spingereTests.release.xcconfig"; path = "Target Support Files/Pods-spingere-spingereTests/Pods-spingere-spingereTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D4E3DFDB87F4FF0A4D57178 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
 		53858FF4F7B447B6A89E554C /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
-		616DBA622C4A9B7000B7BADC /* peetogether.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = peetogether.entitlements; path = peetogether/peetogether.entitlements; sourceTree = "<group>"; };
-		6E9279D742AB9C0BC0B5DB73 /* libPods-peetogether.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-peetogether.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = peetogether/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		616DBA622C4A9B7000B7BADC /* spingere.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = spingere.entitlements; path = spingere/spingere.entitlements; sourceTree = "<group>"; };
+		6E9279D742AB9C0BC0B5DB73 /* libPods-spingere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spingere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = spingere/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A7105C565A41359B731354 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
 		89E7E79076994D3D99F5E415 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		98D6E378B1F64F8197A5658A /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
-		9A432A453B8F09D2E91E6EB9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = peetogether/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		9A432A453B8F09D2E91E6EB9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = spingere/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		9DBC6159AEFB429FAD954EEE /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		A8B01124A2D24D17B528B906 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		AB31D1E92CAAA5470047585F /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		AB6BD5132CA97D930026CB1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD2649BBBFA34C5C9985A425 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
-		B581AC0E913EA395B6477F04 /* Pods-peetogether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peetogether.release.xcconfig"; path = "Target Support Files/Pods-peetogether/Pods-peetogether.release.xcconfig"; sourceTree = "<group>"; };
+		B581AC0E913EA395B6477F04 /* Pods-spingere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spingere.release.xcconfig"; path = "Target Support Files/Pods-spingere/Pods-spingere.release.xcconfig"; sourceTree = "<group>"; };
 		BC25A2D0B66045FFB245EBE3 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		C312873D3A1F4219AC35F2ED /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
 		C6CE3681563242C08AD0BB84 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		D27C7EAD12B04D00B3A3AFD9 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
-		D98580997FFFDA94BDFAED8B /* Pods-peetogether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peetogether.debug.xcconfig"; path = "Target Support Files/Pods-peetogether/Pods-peetogether.debug.xcconfig"; sourceTree = "<group>"; };
+		D98580997FFFDA94BDFAED8B /* Pods-spingere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spingere.debug.xcconfig"; path = "Target Support Files/Pods-spingere/Pods-spingere.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F47544DABC1ECC92F728F178 /* libPods-peetogether-peetogetherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-peetogether-peetogetherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47544DABC1ECC92F728F178 /* libPods-spingere-spingereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spingere-spingereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FDCDB8E5823CEE296DF2D0 /* libPods-peetogether-peetogetherTests.a in Frameworks */,
+				52FDCDB8E5823CEE296DF2D0 /* libPods-spingere-spingereTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,20 +105,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06ECEF0E933E5798F154186 /* libPods-peetogether.a in Frameworks */,
+				D06ECEF0E933E5798F154186 /* libPods-spingere.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* peetogetherTests */ = {
+		00E356EF1AD99517003FC87E /* spingereTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* peetogetherTests.m */,
+				00E356F21AD99517003FC87E /* spingereTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = peetogetherTests;
+			path = spingereTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -154,10 +154,10 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* peetogether */ = {
+		13B07FAE1A68108700A75B9A /* spingere */ = {
 			isa = PBXGroup;
 			children = (
-				616DBA622C4A9B7000B7BADC /* peetogether.entitlements */,
+				616DBA622C4A9B7000B7BADC /* spingere.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -167,15 +167,15 @@
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				9A432A453B8F09D2E91E6EB9 /* PrivacyInfo.xcprivacy */,
 			);
-			name = peetogether;
+			name = spingere;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6E9279D742AB9C0BC0B5DB73 /* libPods-peetogether.a */,
-				F47544DABC1ECC92F728F178 /* libPods-peetogether-peetogetherTests.a */,
+				6E9279D742AB9C0BC0B5DB73 /* libPods-spingere.a */,
+				F47544DABC1ECC92F728F178 /* libPods-spingere-spingereTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				ED6C994D2C42C3AE00067E06 /* images */,
-				13B07FAE1A68108700A75B9A /* peetogether */,
+				13B07FAE1A68108700A75B9A /* spingere */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* peetogetherTests */,
+				00E356EF1AD99517003FC87E /* spingereTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -208,8 +208,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* peetogether.app */,
-				00E356EE1AD99517003FC87E /* peetogetherTests.xctest */,
+				13B07F961A680F5B00A75B9A /* spingere.app */,
+				00E356EE1AD99517003FC87E /* spingereTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,10 +217,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D98580997FFFDA94BDFAED8B /* Pods-peetogether.debug.xcconfig */,
-				B581AC0E913EA395B6477F04 /* Pods-peetogether.release.xcconfig */,
-				0351FC6CA97066941E6EF9C7 /* Pods-peetogether-peetogetherTests.debug.xcconfig */,
-				41DCC3E1344CED254F7A9841 /* Pods-peetogether-peetogetherTests.release.xcconfig */,
+				D98580997FFFDA94BDFAED8B /* Pods-spingere.debug.xcconfig */,
+				B581AC0E913EA395B6477F04 /* Pods-spingere.release.xcconfig */,
+				0351FC6CA97066941E6EF9C7 /* Pods-spingere-spingereTests.debug.xcconfig */,
+				41DCC3E1344CED254F7A9841 /* Pods-spingere-spingereTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -236,9 +236,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* peetogetherTests */ = {
+		00E356ED1AD99517003FC87E /* spingereTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "peetogetherTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "spingereTests" */;
 			buildPhases = (
 				5854633618CA4873CCBB979D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -252,14 +252,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = peetogetherTests;
-			productName = peetogetherTests;
-			productReference = 00E356EE1AD99517003FC87E /* peetogetherTests.xctest */;
+			name = spingereTests;
+			productName = spingereTests;
+			productReference = 00E356EE1AD99517003FC87E /* spingereTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* peetogether */ = {
+		13B07F861A680F5B00A75B9A /* spingere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "peetogether" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "spingere" */;
 			buildPhases = (
 				492BD83304862FA4B7FC2E02 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -275,9 +275,9 @@
 			);
 			dependencies = (
 			);
-			name = peetogether;
-			productName = peetogether;
-			productReference = 13B07F961A680F5B00A75B9A /* peetogether.app */;
+			name = spingere;
+			productName = spingere;
+			productReference = 13B07F961A680F5B00A75B9A /* spingere.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +297,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "peetogether" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "spingere" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -310,8 +310,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* peetogether */,
-				00E356ED1AD99517003FC87E /* peetogetherTests */,
+				13B07F861A680F5B00A75B9A /* spingere */,
+				00E356ED1AD99517003FC87E /* spingereTests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,7 +404,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-peetogether-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-spingere-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +426,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-peetogether-peetogetherTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-spingere-spingereTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -452,15 +452,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-peetogether-peetogetherTests/Pods-peetogether-peetogetherTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-spingere-spingereTests/Pods-spingere-spingereTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-peetogether-peetogetherTests/Pods-peetogether-peetogetherTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-spingere-spingereTests/Pods-spingere-spingereTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-peetogether-peetogetherTests/Pods-peetogether-peetogetherTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-spingere-spingereTests/Pods-spingere-spingereTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9CD88279ED897C7B75ACCCEC /* [CP] Embed Pods Frameworks */ = {
@@ -469,15 +469,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-peetogether/Pods-peetogether-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-spingere/Pods-spingere-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-peetogether/Pods-peetogether-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-spingere/Pods-spingere-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-peetogether/Pods-peetogether-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-spingere/Pods-spingere-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DFD8C42628264808138F8BFB /* [CP] Copy Pods Resources */ = {
@@ -486,15 +486,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-peetogether/Pods-peetogether-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-spingere/Pods-spingere-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-peetogether/Pods-peetogether-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-spingere/Pods-spingere-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-peetogether/Pods-peetogether-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-spingere/Pods-spingere-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EF810FFF715D5DD6869B9F32 /* [CP] Copy Pods Resources */ = {
@@ -503,15 +503,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-peetogether-peetogetherTests/Pods-peetogether-peetogetherTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-spingere-spingereTests/Pods-spingere-spingereTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-peetogether-peetogetherTests/Pods-peetogether-peetogetherTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-spingere-spingereTests/Pods-spingere-spingereTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-peetogether-peetogetherTests/Pods-peetogether-peetogetherTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-spingere-spingereTests/Pods-spingere-spingereTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -521,7 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* peetogetherTests.m in Sources */,
+				00E356F31AD99517003FC87E /* spingereTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +539,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* peetogether */;
+			target = 13B07F861A680F5B00A75B9A /* spingere */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -547,14 +547,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0351FC6CA97066941E6EF9C7 /* Pods-peetogether-peetogetherTests.debug.xcconfig */;
+			baseConfigurationReference = 0351FC6CA97066941E6EF9C7 /* Pods-spingere-spingereTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = peetogetherTests/Info.plist;
+				INFOPLIST_FILE = spingereTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -566,19 +566,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peetogether.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spingere.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peetogether.app/peetogether";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spingere.app/spingere";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41DCC3E1344CED254F7A9841 /* Pods-peetogether-peetogetherTests.release.xcconfig */;
+			baseConfigurationReference = 41DCC3E1344CED254F7A9841 /* Pods-spingere-spingereTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = peetogetherTests/Info.plist;
+				INFOPLIST_FILE = spingereTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -590,40 +590,40 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peetogether.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spingere.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peetogether.app/peetogether";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spingere.app/spingere";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D98580997FFFDA94BDFAED8B /* Pods-peetogether.debug.xcconfig */;
+			baseConfigurationReference = D98580997FFFDA94BDFAED8B /* Pods-spingere.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = peetogether/peetogether.entitlements;
+				CODE_SIGN_ENTITLEMENTS = spingere/spingere.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.3.8;
+				CURRENT_PROJECT_VERSION = 0.0.1;
 				DEVELOPMENT_TEAM = BXSCABB3GB;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = peetogether/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = peetogether;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_FILE = spingere/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = spingere;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peetogether.app;
-				PRODUCT_NAME = peetogether;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spingere.app;
+				PRODUCT_NAME = spingere;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -633,31 +633,31 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B581AC0E913EA395B6477F04 /* Pods-peetogether.release.xcconfig */;
+			baseConfigurationReference = B581AC0E913EA395B6477F04 /* Pods-spingere.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = peetogether/peetogether.entitlements;
+				CODE_SIGN_ENTITLEMENTS = spingere/spingere.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.3.8;
+				CURRENT_PROJECT_VERSION = 0.0.1;
 				DEVELOPMENT_TEAM = BXSCABB3GB;
-				INFOPLIST_FILE = peetogether/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = peetogether;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_FILE = spingere/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = spingere;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peetogether.app;
-				PRODUCT_NAME = peetogether;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spingere.app;
+				PRODUCT_NAME = spingere;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -820,7 +820,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "peetogetherTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "spingereTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -829,7 +829,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "peetogether" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "spingere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -838,7 +838,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "peetogether" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "spingere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -22,8 +22,8 @@ import { IS_ANDROID } from './src/utils/platform.ts';
 import { Text } from 'react-native';
 
 library.add(far, fas, fab, fal);
-const androidWebClientId = '224983519939-vc0jovb9nc5n9gbrmna5drk7qdgfe1ud.apps.googleusercontent.com';
-const iosWebClientId = '224983519939-aat3s0fg77pn8oo2o8e0r1gljoir2g4c.apps.googleusercontent.com';
+const androidWebClientId = '433933312208-2ibtn5hktjurub408sd1s3negvtt5jgc.apps.googleusercontent.com';
+const iosWebClientId = '433933312208-4r09veu4as2oq7bu9o4bv60i7cqtcgi4.apps.googleusercontent.com';
 try {
   GoogleSignin.configure({
     webClientId: IS_ANDROID ? androidWebClientId : iosWebClientId,

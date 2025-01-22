@@ -1,4 +1,4 @@
-package com.peetogether.app
+package com.spingere.app
 
 import android.app.Application
 import com.facebook.react.PackageList

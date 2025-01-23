@@ -11,24 +11,15 @@ import { useStylesheet } from '../../hooks/useStylesheet';
 import { OdinKeyboardAwareScrollView } from '../../components/ui/OdinKeyboardAwareScrollView.tsx';
 import { FormContainer } from '../../components/ui/FormContainer.tsx';
 import { useTheme } from '../../hooks/useTheme.ts';
-import { registerUser } from '../../api/user.ts';
 import { showToast } from '../../utils/toast.ts';
 import { OnBoardingStackParamList } from './OnBoardingNavigator.tsx';
 import { SocialLogin } from '../../components/layout/SocialLogin.tsx';
 import { CONFIG, DEBUG } from '../../../config';
-import { RadioButtonGroup } from '../../components/ui/RadioButtonGroup.tsx';
-import Image from 'react-native-fast-image';
-import { LogoNoBg } from '../../assets';
-import { UsernameField } from './components/UsernameField.tsx';
 import { useUsernameValidation } from '../../hooks/useUsernameValidation.ts';
+import { useFirebaseApi } from '../../utils/firebase/firebaseApi.ts';
 
 type FormValues = {
-  username: string;
-  name: string;
-  surname: string;
   email: string;
-  birthDate: string;
-  sex: UserSexType | undefined;
   password: string;
   repeatPassword: string;
 };
@@ -39,55 +30,26 @@ export const Register = ({ navigation }: Props) => {
   const styles = useStylesheet(createStyles);
   const [loading, setLoading] = useState(false);
   const [acceptedTerms, setAcceptedTerms] = useState<boolean>(false);
-  const usernameValidation = useUsernameValidation();
   const { colors } = useTheme();
-
-  const sexOptions = [
-    { label: t('male'), value: UserSexType.MALE },
-    { label: t('female'), value: UserSexType.FEMALE },
-  ];
+  const { register } = useFirebaseApi();
 
   const { values, errors, setFieldError, setFieldValue, handleSubmit } = useFormik<FormValues>({
     initialValues: {
-      username: DEBUG ? 'test1' : '',
-      name: DEBUG ? 'Test' : '',
-      surname: DEBUG ? '1' : '',
       email: DEBUG ? 'test1@gmail.com' : '',
-      birthDate: '',
       password: DEBUG ? 'adminadmin' : '',
       repeatPassword: DEBUG ? 'adminadmin' : '',
-      sex: DEBUG ? UserSexType.MALE : undefined,
     },
     ...formikProps,
     validationSchema: registerSchema,
     onSubmit: async val => {
-      const isUsernameValid = await usernameValidation.validateForSubmit(val.username);
-      if (!isUsernameValid) {
-        setFieldError('username', usernameValidation.error || '');
-        return;
-      }
-      if (!acceptedTerms) {
-        showToast(t('toasts.errorTitle'), t('toasts.acceptTermsErrorMessage'), {
-          type: 'error',
-        });
-        return;
-      }
       setLoading(true);
       try {
-        await registerUser({
-          email: val.email,
-          password: val.password,
-          username: val.username,
-          name: val.name,
-          surname: val.surname,
-          birthDate: val.birthDate !== '' ? val.birthDate : undefined,
-          sex: val.sex,
-        });
+        const res = await register(val.email, val.password);
+        console.log('registerRes', res);
         navigation.navigate('Home');
         showToast(t('toasts.registerSuccessTitle'), t('toasts.registerSuccessMessage'), {
           type: 'success',
         });
-        console.log({ registerData: val });
       } catch (e) {
         setLoading(false);
         showToast(t('toasts.registerErrorTitle'), t('toasts.registerErrorMessage'), {
@@ -118,21 +80,7 @@ export const Register = ({ navigation }: Props) => {
                 </Text>
               </Text>
             </Col>
-            <UsernameField label={t('username')} type={'text'} autoCapitalize={'none'} {...fieldProps('username')} />
-            <TextField label={t('name')} type={'text'} {...fieldProps('name')} />
-            <TextField label={t('surname')} type={'text'} {...fieldProps('surname')} />
             <TextField label={t('email')} autoCapitalize={'none'} type={'email'} {...fieldProps('email')} />
-            <TextField label={t('birthDate')} autoCapitalize={'none'} type={'date'} {...fieldProps('birthDate')} />
-            <RadioButtonGroup
-              label={t('sex')}
-              options={sexOptions}
-              value={values.sex}
-              onChange={value => {
-                setFieldValue('sex', value);
-                setFieldError('sex', '');
-              }}
-              {...fieldProps('sex')}
-            />
             <TextField label={t('password')} type={'password'} autoCapitalize={'none'} {...fieldProps('password')} />
             <TextField label={t('repeatPassword')} type={'password'} autoCapitalize={'none'} {...fieldProps('repeatPassword')} />
           </Col>

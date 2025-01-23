@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* spingereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* spingereTests.m */; };
+		09D64C47DA40271F22B6F486 /* Pods_spingere_spingereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80AD76C433313A7794F932C /* Pods_spingere_spingereTests.framework */; };
 		0B1F27381F5541DAADD0526F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD2649BBBFA34C5C9985A425 /* Montserrat-SemiBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -18,7 +19,7 @@
 		3A3496E8EF964E05945C3C01 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E3DFDB87F4FF0A4D57178 /* Montserrat-Black.ttf */; };
 		3B1408ACAFE8460CAB78AC00 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C312873D3A1F4219AC35F2ED /* Montserrat-ThinItalic.ttf */; };
 		49F9DD778273469A8B16D7E9 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5DA995335D426FAF8782DC /* Montserrat-ExtraBold.ttf */; };
-		52FDCDB8E5823CEE296DF2D0 /* libPods-spingere-spingereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F47544DABC1ECC92F728F178 /* libPods-spingere-spingereTests.a */; };
+		52F6760ED52CE1CB180F8762 /* Pods_spingere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EA51C58AC657E870C945C7 /* Pods_spingere.framework */; };
 		6FB25B326035483994101D47 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89E7E79076994D3D99F5E415 /* Montserrat-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		84D98F99C3DE4BA487AE3097 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0793B7A0A0514F489EE6000E /* Montserrat-ExtraLight.ttf */; };
@@ -34,7 +35,6 @@
 		AD77F20664CE4C99A2716AE8 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A7105C565A41359B731354 /* Montserrat-BoldItalic.ttf */; };
 		AEBF86122E94415FB2F1A6A2 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 050E1C0B98694A4881899C14 /* Montserrat-SemiBoldItalic.ttf */; };
 		BF9A0661D37341B989EE29F1 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DBC6159AEFB429FAD954EEE /* Montserrat-BlackItalic.ttf */; };
-		D06ECEF0E933E5798F154186 /* libPods-spingere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9279D742AB9C0BC0B5DB73 /* libPods-spingere.a */; };
 		F59E1E7EE6E54A42932E6655 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53858FF4F7B447B6A89E554C /* Montserrat-Light.ttf */; };
 		FFD9406E9747493B8E14B419 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D27C7EAD12B04D00B3A3AFD9 /* Montserrat-LightItalic.ttf */; };
 /* End PBXBuildFile section */
@@ -71,7 +71,7 @@
 		4D4E3DFDB87F4FF0A4D57178 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
 		53858FF4F7B447B6A89E554C /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		616DBA622C4A9B7000B7BADC /* spingere.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = spingere.entitlements; path = spingere/spingere.entitlements; sourceTree = "<group>"; };
-		6E9279D742AB9C0BC0B5DB73 /* libPods-spingere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spingere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EA51C58AC657E870C945C7 /* Pods_spingere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spingere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = spingere/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A7105C565A41359B731354 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
 		89E7E79076994D3D99F5E415 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
@@ -83,13 +83,13 @@
 		AB6BD5132CA97D930026CB1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD2649BBBFA34C5C9985A425 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		B581AC0E913EA395B6477F04 /* Pods-spingere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spingere.release.xcconfig"; path = "Target Support Files/Pods-spingere/Pods-spingere.release.xcconfig"; sourceTree = "<group>"; };
+		B80AD76C433313A7794F932C /* Pods_spingere_spingereTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spingere_spingereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC25A2D0B66045FFB245EBE3 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		C312873D3A1F4219AC35F2ED /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
 		C6CE3681563242C08AD0BB84 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		D27C7EAD12B04D00B3A3AFD9 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		D98580997FFFDA94BDFAED8B /* Pods-spingere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spingere.debug.xcconfig"; path = "Target Support Files/Pods-spingere/Pods-spingere.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F47544DABC1ECC92F728F178 /* libPods-spingere-spingereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spingere-spingereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FDCDB8E5823CEE296DF2D0 /* libPods-spingere-spingereTests.a in Frameworks */,
+				09D64C47DA40271F22B6F486 /* Pods_spingere_spingereTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06ECEF0E933E5798F154186 /* libPods-spingere.a in Frameworks */,
+				52F6760ED52CE1CB180F8762 /* Pods_spingere.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6E9279D742AB9C0BC0B5DB73 /* libPods-spingere.a */,
-				F47544DABC1ECC92F728F178 /* libPods-spingere-spingereTests.a */,
+				78EA51C58AC657E870C945C7 /* Pods_spingere.framework */,
+				B80AD76C433313A7794F932C /* Pods_spingere_spingereTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -612,6 +612,7 @@
 				INFOPLIST_FILE = spingere/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = spingere;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -646,6 +647,7 @@
 				INFOPLIST_FILE = spingere/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = spingere;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -715,6 +717,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD = "";
 				LDPLUSPLUS = "";
@@ -788,6 +801,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD = "";
 				LDPLUSPLUS = "";

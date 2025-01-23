@@ -7,7 +7,6 @@ import { colors, SHADOW } from '../../../constant';
 import { FilterButton } from './FilterButton.tsx';
 import { useLocationPermission } from 'react-native-vision-camera';
 import { Theme } from '../../../types';
-import Mapbox from '@rnmapbox/maps';
 import _ from 'lodash';
 import { point } from '@turf/turf';
 import { trigger } from 'react-native-haptic-feedback';

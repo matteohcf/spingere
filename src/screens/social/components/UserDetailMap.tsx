@@ -6,7 +6,6 @@ import { Theme, User } from '../../../types';
 import { useStylesheet } from '../../../hooks/useStylesheet.ts';
 import { useSelector } from 'react-redux';
 import { userSelectors } from '../../../store/user.ts';
-import Mapbox from '@rnmapbox/maps';
 import _ from 'lodash';
 import { clusterPoints } from '../../../utils/geolocation.ts';
 

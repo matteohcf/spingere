@@ -92,16 +92,16 @@ export const SocialLogin = () => {
       const { identityToken, nonce } = appleAuthRequestResponse;
       const appleCredential = auth.AppleAuthProvider.credential(identityToken, nonce);
       // Sign the user in with the credential
-      await auth().signInWithCredential(appleCredential);
+      const {user} = await auth().signInWithCredential(appleCredential);
       const userToken = await auth().currentUser?.getIdToken();
       if (!userToken) {
         return Promise.reject('Apple Sign-In failed - no user token returned');
       }
-      const { data: socialLoginResponse } = await handleSocialLogin({
-        token: userToken,
-        provider: SocialLoginType.Apple,
-      });
-      await handleSocialLoginSuccess(socialLoginResponse);
+      // const { data: socialLoginResponse } = await handleSocialLogin({
+      //   token: userToken,
+      //   provider: SocialLoginType.Apple,
+      // });
+      await handleSocialLoginSuccess({token: userToken, user});
     } catch (e) {
       console.debug({ e });
       handleSocialLoginError(e);
@@ -112,13 +112,13 @@ export const SocialLogin = () => {
     try {
       setLoading(SocialLoginType.Google);
       await GoogleSignin.hasPlayServices();
-      const { idToken } = await GoogleSignin.signIn();
+      const { idToken, user } = await GoogleSignin.signIn();
       const { token } = auth.GoogleAuthProvider.credential(idToken);
-      const { data: socialLoginResponse } = await handleSocialLogin({
-        token,
-        provider: SocialLoginType.Google,
-      });
-      await handleSocialLoginSuccess(socialLoginResponse);
+      // const { data: socialLoginResponse } = await handleSocialLogin({
+      //   token,
+      //   provider: SocialLoginType.Google,
+      // });
+      await handleSocialLoginSuccess({token, user});
     } catch (e) {
       console.log({ e });
       handleSocialLoginError(e);

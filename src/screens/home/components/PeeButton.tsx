@@ -15,7 +15,7 @@ import { useSelector } from 'react-redux';
 import { userSelectors } from '../../../store/user.ts';
 import { showToast } from '../../../utils/toast.ts';
 import analytics from '@react-native-firebase/analytics';
-import { Analytics } from '../../../utils/firebase.ts';
+import { Analytics } from '../../../utils/firebase/firebaseUtils.ts';
 
 type Props = {
   onPress: (peeResponse: any) => void;

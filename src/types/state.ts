@@ -1,15 +1,12 @@
 import { User } from './user';
 import { Languages } from '../i18n';
 import { GeolocationResponse } from '@react-native-community/geolocation';
-import {Pee} from "./pee.ts";
 
 export type UserState = {
   token?: string;
   detail?: User;
   language: Languages;
-  visitedTutorial: boolean;
-  geolocation?: UserGeolocation;
-  bottomNotifications?: any;
+  // visitedTutorial: boolean;
 };
 
 export type AppState = {

@@ -2,9 +2,9 @@ import analytics from '@react-native-firebase/analytics';
 import crashlytics from '@react-native-firebase/crashlytics';
 import DeviceInfo from 'react-native-device-info';
 import _ from 'lodash';
-import { User } from '../types';
+import { User } from '../../types';
 import { useSelector } from 'react-redux';
-import { userSelectors } from '../store/user';
+import { userSelectors } from '../../store/user.ts';
 import { useEffect } from 'react';
 
 export const logLogin = (method: 'credential') => {
@@ -116,7 +116,7 @@ const extractTopLevelProperties = (input: any): any => {
   return result;
 };
 
-export const useFirebase = () => {
+export const useFirebaseUtils = () => {
   const userDetail = useSelector(userSelectors.detail);
 
   useEffect(() => {

@@ -6,7 +6,7 @@ import notifee from '@notifee/react-native';
 import { PermissionsAndroid, Platform } from 'react-native';
 import { navigationRef } from '../core/providers/NavigatorProvider.tsx';
 import { showToast } from "./toast.ts";
-import { getDeviceInformation } from "./firebase.ts";
+import { getDeviceInformation } from "./firebase/firebaseUtils.ts";
 
 export const requestNotificationPermission = async () => {
   if (Platform.OS === 'android') {

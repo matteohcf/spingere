@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { StyleSheet, View } from 'react-native';
-import Mapbox from '@rnmapbox/maps';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { SharedStackParamList } from '../../core/navigation/RootNavigator.tsx';
 import { useStylesheet } from '../../hooks/useStylesheet.ts';
@@ -15,7 +14,7 @@ import { t } from 'i18next';
 import { MapManager } from '../../managers/MapManager.tsx';
 import { MapMarkers } from './components/MapMarkers.tsx';
 
-Mapbox.setAccessToken(CONFIG.MAPBOX_ACCESS_TOKEN).catch(console.error);
+// Mapbox.setAccessToken(CONFIG.MAPBOX_ACCESS_TOKEN).catch(console.error);
 
 type Props = NativeStackScreenProps<SharedStackParamList, 'Map'>;
 

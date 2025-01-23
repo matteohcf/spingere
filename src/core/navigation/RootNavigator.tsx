@@ -7,8 +7,6 @@ import { colors, lightTheme } from '../../constant';
 import { Col, FONTS, HeaderLeft, Icon, Text } from '../../components';
 import { Home } from '../../screens/home/Home.tsx';
 import { Profile } from '../../screens/profile/Profile.tsx';
-import { useSelector } from 'react-redux';
-import { userSelectors } from '../../store/user.ts';
 import { baseOptionsHeader } from '../../screens/onboarding/OnBoardingNavigator.tsx';
 import { Friends } from '../../screens/social/Friends.tsx';
 import { Results } from '../../screens/results/Results.tsx';
@@ -22,14 +20,12 @@ import { Leaderboards } from '../../screens/leaderboards/Leaderboards.tsx';
 import { MyStatistics } from '../../screens/profile/MyStatistics.tsx';
 import { CommonFriends } from '../../screens/social/components/CommonFriends.tsx';
 import { ProfileMyData } from '../../screens/profile/profileMyData.tsx';
-import { useFocusEffect } from '@react-navigation/native';
-import { getNotificationsCount } from '../../api/user.ts';
 import { useAppState } from '../../hooks/useAppState.ts';
 import { PeeDetail } from '../../screens/home/peeDetail/PeeDetail.tsx';
 import { Quest } from '../../types/quest.ts';
 import { QuestDetail } from '../../screens/results/quests/QuestDetail.tsx';
 import { UnlockedQuests } from '../../screens/results/quests/UnlockedQuests.tsx';
-import {FriendsOfFriend} from "../../screens/social/components/FriendsOfFriend.tsx";
+import { FriendsOfFriend } from '../../screens/social/components/FriendsOfFriend.tsx';
 
 export const headerTitleStyle = {
   fontSize: 24,
@@ -237,18 +233,6 @@ const TabNavigator = () => {
     headerShown: true,
   };
 
-  const bottomNotifications = useSelector(userSelectors.bottomNotifications);
-  const friends = bottomNotifications?.count || 0;
-
-  useFocusEffect(
-    React.useCallback(() => {
-      if (appStateStatus === 'active') {
-        console.log('update bottom notifications');
-        getNotificationsCount();
-      }
-    }, [appStateStatus]),
-  );
-
   return (
     <Tab.Navigator
       backBehavior={'history'}
@@ -293,7 +277,7 @@ const TabNavigator = () => {
           headerTitleAlign: 'left',
           headerTitle: t('friends'),
           tabBarIcon: props => (
-            <BottomItem props={props} notifications={friends} icon={['far', 'heart']} iconSelected={['far', 'heart']} text={t('friends')} size={24} />
+            <BottomItem props={props} notifications={'1'} icon={['far', 'heart']} iconSelected={['far', 'heart']} text={t('friends')} size={24} />
           ),
         }}
       />

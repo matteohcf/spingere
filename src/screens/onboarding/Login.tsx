@@ -16,9 +16,7 @@ import { loginUser } from '../../api/user.ts';
 import { showToast } from '../../utils/toast.ts';
 import { OnBoardingStackParamList } from './OnBoardingNavigator.tsx';
 import { SocialLogin } from '../../components/layout/SocialLogin.tsx';
-import { LogoNoBg } from '../../assets';
-import Image from 'react-native-fast-image';
-import auth from '@react-native-firebase/auth';
+import {useFirebaseApi} from "../../utils/firebase/firebaseApi.ts";
 
 type FormValues = {
   email: string;
@@ -31,10 +29,11 @@ export const Login = ({ navigation }: Props) => {
   const styles = useStylesheet(createStyles);
   const [loading, setLoading] = useState(false);
   const { colors } = useTheme();
+  const { login } = useFirebaseApi()
 
   const { values, errors, setFieldError, setFieldValue, handleSubmit } = useFormik<FormValues>({
     initialValues: {
-      email: DEBUG ? 'matteo.carrara@runelab.it' : '',
+      email: DEBUG ? 'test1@gmail.com' : '',
       password: DEBUG ? 'adminadmin' : '',
     },
     ...formikProps,
@@ -42,7 +41,7 @@ export const Login = ({ navigation }: Props) => {
     onSubmit: async val => {
       setLoading(true);
       try {
-        await loginUser({ email: val.email, password: val.password });
+        await login(val.email, val.password);
         showToast(t('toasts.loginSuccessTitle'), t('toasts.loginSuccessMessage'), {
           type: 'success',
         });

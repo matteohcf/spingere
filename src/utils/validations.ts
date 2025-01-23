@@ -63,11 +63,7 @@ export const changePasswordSchema = yup.object().shape({
 });
 
 export const registerSchema = yup.object().shape({
-  username: requiredField,
-  name: requiredField,
-  surname: requiredField,
   email: yup.string().required(errors.required).email(errors.invalidEmail),
-  birthDate: yup.date().min(new Date('1900-01-01'), errors.invalidDate).max(new Date(), errors.invalidDate),
   password: yup.string().required(errors.required).min(6, errors.passwordMinLength),
   repeatPassword: yup
     .string()
